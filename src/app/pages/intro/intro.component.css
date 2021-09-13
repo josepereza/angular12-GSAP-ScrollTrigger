@@ -1,0 +1,29 @@
+
+.portada {
+  height: 100vh;
+  display: flex;
+ 
+ 
+
+  align-items: center;
+  
+  justify-content: center;
+
+}
+
+@media only screen and (max-width: 600px) {
+   .portada {
+     margin-top: 20px;
+     display: flex;
+     flex-direction: column; 
+    }
+  }
+  .imagen-fija{
+      height: 100vh;
+      width: 100%;
+    background-image: url('../../../assets/images/platino.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
